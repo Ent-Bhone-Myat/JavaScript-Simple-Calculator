@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(11, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 320px;
+    height: 540px;
+    margin: 100px auto;
+    box-shadow: 0 5px 10px 2px black;
+}
+
+.display{
+    text-align: right;
+    height: 60px;
+    margin: 30px 20px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.buttons{
+    margin-top: 30px;
+    height: 400px;
+}
+
+button{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.numBtn, .empty{
+    background-color: white;
+}
+
+.operator{
+    background-color: rgb(225, 213, 196);
+}
+
+.numBtn, .operator{
+    cursor: pointer;
+}
+
+.numBtn:active, .operator:active{
+    font-size: 12px;
+}
+
+button:nth-child(4){
+    background-color: rgb(182, 246, 85);
+    font-size: 20px;
+}
+
+button:nth-child(8){
+    background-color: rgb(84, 84, 252);
+    font-size: 20px;
+}
+
+button:nth-child(12){
+    background-color: orange;
+    font-size: 20px;
+}
+
+button:nth-child(16){
+    background-color: rgb(251, 46, 46);
+    font-size: 20px;
+}
+
+button:nth-child(20){
+    background-color: rgb(30, 215, 215);
+    font-size: 20px;
+}
